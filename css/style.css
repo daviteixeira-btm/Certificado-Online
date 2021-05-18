@@ -5,6 +5,12 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+:root {
+    --preto: #000;
+    --branco: #fff;
+}
+
 body {
     margin-top: 2rem;
 }
@@ -17,8 +23,10 @@ body #container{
     height: 35.8rem;
     align-items: center;
     flex-direction: column;
-    border: 1rem solid black;
+    border: 1rem solid var(--preto);
     justify-content: space-evenly;
+    background-repeat:round;
+    background-image: url('../img/wallpaper-programing-01.jpg');
 }
 
 #container header {
@@ -26,6 +34,7 @@ body #container{
     padding: 1rem;
     display: flex;
     align-items: center;
+    background: var(--branco);
     flex-direction: column;
     justify-content: center;
     /*border: 1px solid black;*/
@@ -35,15 +44,11 @@ body #container{
     margin: 0.5rem;
 }
 
-#container main {
-    padding: 1rem;
-    /*border: 1px solid black;*/
-}
-
 #container main section {
     padding: 1rem;
     display: flex;
     align-items: center;
+    background: var(--branco);
     flex-direction: column;
     justify-content: center;
     /*border: 1px solid black;*/
@@ -61,6 +66,7 @@ body #container{
     display: flex;
     padding: 1rem;
     flex-direction: row;
+    background: var(--branco);
     /*border: 1px solid black;*/
 }
 
