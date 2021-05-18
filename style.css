@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    margin-top: 2rem;
+}
+
+body #container{
+    margin: auto;
+    padding: 1rem;
+    display: flex;
+    width: 50.1rem;
+    height: 35.8rem;
+    align-items: center;
+    flex-direction: column;
+    border: 1rem solid black;
+    justify-content: space-evenly;
+}
+
+#container header {
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    /*border: 1px solid black;*/
+}
+
+#container header h1 {
+    margin: 0.5rem;
+}
+
+#container main {
+    padding: 1rem;
+    /*border: 1px solid black;*/
+}
+
+#container main section {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    /*border: 1px solid black;*/
+}
+
+#container main section h2 {
+    margin: 0.5rem;
+}
+
+#container main section p {
+    text-align: center;
+}
+
+#container footer {
+    display: flex;
+    padding: 1rem;
+    flex-direction: row;
+    /*border: 1px solid black;*/
+}
+
+#container footer #assinatura{
+    width: 45%;
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    /*border: 1px solid black;*/
+}
+
+#container footer #assinatura h3 {
+    margin: 0.5rem;
+}
+
+#container footer #assinatura p {
+    margin: 0.5rem;
+    text-align: center;
+}
+
+#container footer #logos{
+    width: 55%;
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /*border: 1px solid black;*/
+}
+
+#container footer #logos img{
+    height: 4rem;
+    margin: 0.5rem;
+    /*border: 1px solid black;*/
+}
